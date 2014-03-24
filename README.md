@@ -1,9 +1,7 @@
-Multi-function curriculum Based on Android
+Multi-function curriculum APP Based on Android
 ==========================================
-
 Basic Function : 
 add/delete/modify/check curriculum information.
-
 Extention Function :
 1 Defautly desplay the curriculum information of current day;
 2 Give notice before class basen on your sets;
