@@ -13,3 +13,10 @@ Extention Function :
 
 3 Automatically make your phone calls mute during the class time.
 
+Related URL:
+
+The Introduction URL : http://blog.csdn.net/ns_code/article/details/11269957
+
+The XiaoMi APP Store of this APP URL : http://app.xiaomi.com/detail/42115
+
+
