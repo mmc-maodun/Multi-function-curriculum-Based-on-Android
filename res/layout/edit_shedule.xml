@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/edit_background"
+    android:orientation="vertical" >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+  
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="10sp"  />       
+<TableLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<TableRow
+    android:gravity="center_horizontal" >    
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/course_name"
+        android:textColor="#004499"
+        android:textSize="20sp" />
+
+  	<EditText
+  	    android:id="@+id/editText1"
+  	    android:layout_width="150dp"
+  	    android:layout_height="wrap_content"
+  	    android:hint="@string/input_course_name"
+  	    android:singleLine="true" />
+	           
+</TableRow>	
+<TextView
+    android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:textSize="10sp"	/> 
+<TableRow
+    android:gravity="center_horizontal" >       
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:text="@string/course_address"
+        android:textColor="#004499"
+        android:textSize="20sp" />
+
+  	<EditText
+  	    android:id="@+id/editText2"
+  	    android:layout_width="150dp"
+  	    android:layout_height="wrap_content"
+  	    android:hint="@string/input_course_address"
+  	    android:singleLine="true" />
+	          
+</TableRow>
+<TextView
+    android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:textSize="10sp"	/> 	  	
+<TableRow
+    android:gravity="center_horizontal" >       
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/course_teacher"
+        android:textColor="#004499"
+        android:textSize="20sp" />
+
+  	<EditText
+  	    android:id="@+id/editText3"
+  	    android:layout_width="150dp"
+  	    android:layout_height="wrap_content"
+  	    android:hint="@string/input_course_teacher"
+  	    android:singleLine="true" />
+	          
+</TableRow>	
+<TextView
+    android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:textSize="10sp"	/>  
+<TableRow
+    android:gravity="center_horizontal" >       
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/course_week"
+        android:textColor="#004499"
+        android:textSize="20sp" />
+
+  	<EditText
+  	    android:id="@+id/editText4"
+  	    android:layout_width="150dp"
+  	    android:layout_height="wrap_content"
+  	    android:hint="@string/input_course_week"
+  	    android:singleLine="true" />
+	          
+</TableRow>	 
+<TextView
+    android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:textSize="10sp"	/> 
+<TableRow
+    android:gravity="center_horizontal" > 
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+	<TextView
+	    android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textSize="5sp"	/>     
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/course_amount"
+        android:textColor="#004499"
+        android:textSize="20sp" />
+       
+</LinearLayout>      
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <EditText
+        android:id="@+id/jieshu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="number"
+        android:singleLine="true"
+        android:digits="@string/jieshulimit"
+        android:hint="@string/input_course_jieshu" />
+		   
+</LinearLayout>		          
+</TableRow>
+<TextView
+    android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:textSize="10sp"	/> 
+<TableRow
+    android:gravity="center_horizontal" > 
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+	<TextView
+	    android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textSize="5sp"	/>          
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/course_time"
+        android:textColor="#004499"
+        android:textSize="20sp" />
+
+</LinearLayout>
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <Button
+        android:id="@+id/time1"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:singleLine="true" />
+	  
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/to"
+        android:textColor="#004499"
+        android:textSize="20sp" />
+
+  	<Button
+  	    android:id="@+id/time2"
+  	    android:layout_width="70dp"
+  	    android:layout_height="wrap_content"
+  	    android:gravity="center"
+  	    android:singleLine="true" />
+		   
+</LinearLayout>			          
+</TableRow>	  	      	
+</TableLayout>
+<LinearLayout 
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:orientation="horizontal"  >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:layout_weight="1" />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:layout_weight="1"  />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:layout_weight="1" /> 
+</LinearLayout>
+</LinearLayout>
+</ScrollView>

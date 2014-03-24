@@ -1,0 +1,167 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+<!--  
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/top_bar_middle"
+    android:orientation="horizontal" >
+ 
+<Button 
+    android:id="@+id/exitButton" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:textSize="10sp"
+    android:text="@string/exit" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="8"
+    android:gravity="center"
+    android:textSize="20sp" 
+    android:text="@string/heading" />
+
+<Button
+    android:id="@+id/setButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:textSize="10sp"
+    android:text="@string/set" />
+</LinearLayout>
+ -->
+  
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/top_bar_middle"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingRight="2dip" >
+
+        <TextView
+            android:id="@+id/exitButton"
+            android:layout_width="60dip"
+            android:layout_height="35dip"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/top_bar_back"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dip"
+            android:text="@string/exit"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" >
+        </TextView>
+
+        <TextView
+            android:layout_width="80dip"
+            android:layout_height="50dip"
+            android:layout_gravity="center_vertical|center"
+            android:gravity="center"
+            android:text="@string/heading"
+            android:textColor="#000000"
+            android:textSize="19sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/setButton"
+            android:layout_width="50dp"
+            android:layout_height="35dip"
+            android:layout_gravity="center_vertical|right"
+            android:background="@drawable/top_bar_reg_d"
+            android:gravity="center"
+            android:text="@string/set"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" >
+        </TextView>
+    </FrameLayout>
+ 
+ 
+<TabHost 
+    android:id="@+id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<LinearLayout 
+	android:orientation="vertical" 
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" >
+<TabWidget 
+    android:id="@android:id/tabs"
+    android:background="@drawable/tab_bar"
+    android:layout_width="match_parent"
+    android:layout_height="50dip"/>     
+<FrameLayout 
+    android:id="@android:id/tabcontent"
+    android:background="@drawable/menu_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<ListView 
+    android:id="@+id/list0"
+    android:scrollbars="none"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:divider="#0099ff"
+    android:dividerHeight="0.5dip" />
+    <!--  android:background="#90FF00"  -->
+<ListView 
+    android:id="@+id/list1"
+    android:scrollbars="none"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:divider="#0099ff"
+    android:dividerHeight="0.5dip"  />  
+    <!--  android:background="#FFFF00"  -->
+<ListView 
+    android:id="@+id/list2"
+    android:scrollbars="none"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:divider="#0099ff"
+    android:dividerHeight="0.5dip" />
+    <!--  android:background="#90FF0D"  --> 
+<ListView 
+    android:id="@+id/list3"
+    android:scrollbars="none"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:divider="#0099ff"
+    android:dividerHeight="0.5dip"  /> 
+    <!--  android:background="#00FF0D"  --> 
+<ListView 
+    android:id="@+id/list4"
+    android:scrollbars="none"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:divider="#0099ff"
+    android:dividerHeight="0.5dip"  />  
+    <!--  android:background="#90FF0D"  --> 
+<ListView 
+    android:id="@+id/list5"
+    android:scrollbars="none"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:divider="#0099ff"
+    android:dividerHeight="0.5dip" />
+    <!--  android:background="#FFFF00"  --> 
+<ListView 
+    android:id="@+id/list6"
+    android:scrollbars="none"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:divider="#0099ff"
+    android:dividerHeight="0.5dip" /> 
+    <!--  android:background="#90FF0D"  -->     
+</FrameLayout>         
+</LinearLayout> 
+</TabHost>
+
+</LinearLayout>
+    
+    
+    
+    
+

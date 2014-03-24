@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="cancle">取消</string>
+    <string name="finish">完成</string>
+    <string name="app_name">随身课程表</string>
+    <string name="menu_settings">设置</string>
+    <string name="set">设置</string>
+    <string name="message_set">消息设置</string>
+    <string name="quiet">开启上课自动静音</string>  
+    <string name="remind">开启课前振动提醒</string>
+    <string name="about_app">软件相关</string> 
+    <string name="revision">版本支持</string>  
+    <string name="us">关于作者</string>                   
+    <string name="heading">课表信息</string>  
+    <string name="exit">退出</string> 
+    <string name="back">返回</string>     
+    <string name="edit_title">课程信息</string> 
+    <string name="course_name">课程名称：</string>
+    <string name="course_address">教室地点：</string>
+    <string name="course_teacher">老师姓名：</string>  
+    <string name="course_amount">上课节数：</string> 
+    <string name="course_week">上课周数：</string> 
+    <string name="course_time">上课时间：</string> 
+    <string name="input_course_name">请输入课程名称</string>
+    <string name="input_course_address">请输入教室地点</string>
+    <string name="input_course_teacher">请输入老师姓名</string>  
+    <string name="input_course_week">总周数或单双周</string> 
+    <string name="input_course_jieshu">总节数不超过4</string>    
+    <string name="to">至</string>     
+    <string name="jieshulimit">1 2 3 4</string>                    
+</resources>

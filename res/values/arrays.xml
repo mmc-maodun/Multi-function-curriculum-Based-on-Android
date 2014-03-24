@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="edit_options1">
+        <item >添加课程信息</item>
+    </string-array>
+    <string-array name="edit_options2">
+        <item >修改课程信息</item>
+        <item >删除课程信息</item>
+    </string-array>
+    <string-array name="set_remind">
+        <item >5分钟</item>
+        <item >10分钟</item>
+        <item >20分钟</item>
+        <item >30分钟</item> 
+        <item >40分钟</item>
+        <item >50分钟</item>
+        <item >60分钟</item>               
+    </string-array>
+</resources>

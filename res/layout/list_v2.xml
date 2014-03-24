@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="30dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="8.91"
+        android:background="#888800"
+        android:gravity="center"
+        android:text="id"
+        android:textColor="#004499"
+        tools:ignore="HardcodedText,InefficientWeight" />
+
+    <TableLayout
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.79"
+        android:paddingLeft="10dp" >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/ltext0"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:text="if"
+                android:textSize="15sp"
+                android:singleLine="true"
+                android:textColor="#004499"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/ltext1"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="if"
+                android:textSize="15sp"
+                android:singleLine="true"
+                android:textColor="#004499"
+                tools:ignore="HardcodedText" />
+        </TableRow>
+
+		<TableRow
+		    android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+		    >
+        <TextView
+            android:id="@+id/ltext6"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="if"
+            android:textSize="15sp"
+            android:singleLine="true"
+            android:textColor="#004499"
+            tools:ignore="HardcodedText" />
+           <TextView
+            android:id="@+id/ltext7"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="if"
+            android:textSize="15sp"
+            android:singleLine="true"
+            android:textColor="#004499"
+            tools:ignore="HardcodedText" />
+		</TableRow>
+    </TableLayout>
+
+</LinearLayout>

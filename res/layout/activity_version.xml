@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ver_bg" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/top_bar_middle"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingRight="2dip" >
+
+        <TextView
+            android:id="@+id/backtoSetButton"
+            android:layout_width="60dip"
+            android:layout_height="35dip"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/top_bar_back"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dip"
+            android:text="@string/back"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" >
+        </TextView>
+
+        <TextView
+            android:layout_width="80dip"
+            android:layout_height="50dip"
+            android:layout_gravity="center_vertical|center"
+            android:gravity="center"
+            android:text="版本支持"
+            android:textColor="#000000"
+            android:textSize="19sp" >
+        </TextView>
+    </FrameLayout>
+
+	<LinearLayout 
+	android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center" >       
+		<ImageView
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:src="@drawable/ic_launcher"
+		    android:layout_gravity="center" />
+		
+		<TextView
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:gravity="center_horizontal"
+		    android:text="APP当前版本：V1.0"
+		    android:textColor="#004499"
+		    android:textSize="15sp" />
+		
+		<TextView 
+		    android:layout_width="match_parent" 
+		    android:layout_height="wrap_content"
+		    android:gravity="center_horizontal" 
+		    android:text="支持系统版本：Android4.0以上"
+		    android:textColor="#004499"
+			android:textSize="15sp"/>
+		
+	</LinearLayout>
+</LinearLayout>

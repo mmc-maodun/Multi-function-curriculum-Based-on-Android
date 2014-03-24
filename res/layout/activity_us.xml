@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/menu_bg" >
+<!-- 
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#90FF00">
+<Button 
+    android:id="@+id/backtoSetButton" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="10sp"
+    android:layout_weight="1"
+    android:text="@string/back" />    
+<TextView 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="关于我们"
+    android:textSize="20sp"
+    android:layout_weight="8"
+    android:gravity="center"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="5"
+    android:textSize="15sp" />
+</LinearLayout>
+-->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/top_bar_middle"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingRight="2dip" >
+
+        <TextView
+            android:id="@+id/backtoSetButton"
+            android:layout_width="60dip"
+            android:layout_height="35dip"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/top_bar_back"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dip"
+            android:text="@string/back"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" >
+        </TextView>
+
+        <TextView
+            android:layout_width="80dip"
+            android:layout_height="50dip"
+            android:layout_gravity="center_vertical|center"
+            android:gravity="center"
+            android:text="关于作者"
+            android:textColor="#000000"
+            android:textSize="19sp" >
+        </TextView>
+    </FrameLayout>
+    
+<ImageView
+    android:layout_width="300dp"
+    android:layout_height="250dp"
+    android:src="@drawable/me"
+    android:layout_gravity="center_horizontal" />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:text="屌丝程序员一枚，我的QQ：527973540"
+    android:textColor="#004499"
+    android:textSize="15sp" />
+
+<TextView 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content" 
+	android:textSize="30sp"
+    android:gravity="center_horizontal"/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:text="随身课程表"
+    android:textColor="#0000ff"
+    android:textSize="25sp"
+    android:textStyle="bold|italic" />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:text="伴在你身边，伴随你成长"
+    android:textColor="#0000ff"
+    android:textSize="25sp"
+    android:textStyle="bold|italic" />
+
+</LinearLayout>

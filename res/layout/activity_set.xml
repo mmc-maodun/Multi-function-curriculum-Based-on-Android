@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<!--  
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#90FF00">
+<Button 
+    android:id="@+id/backtoMainButton" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="10sp"
+    android:layout_weight="1"
+    android:text="@string/back" />    
+<TextView 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="@string/set"
+    android:textSize="20sp"
+    android:layout_weight="8"
+    android:gravity="center"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="5"
+    android:textSize="15sp" />
+</LinearLayout>
+-->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/top_bar_middle"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingRight="2dip" >
+
+        <TextView
+            android:id="@+id/backtoMainButton"
+            android:layout_width="60dip"
+            android:layout_height="35dip"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/top_bar_back"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dip"
+            android:text="@string/back"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" >
+        </TextView>
+
+        <TextView
+            android:layout_width="80dip"
+            android:layout_height="50dip"
+            android:layout_gravity="center_vertical|center"
+            android:gravity="center"
+            android:text="@string/set"
+            android:textColor="#000000"
+            android:textSize="19sp" >
+        </TextView>
+    </FrameLayout>
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/edit_background" > 
+ <TextView
+    android:layout_width="match_parent"
+	android:layout_height="30dip"
+	android:paddingLeft="10dp"
+	android:gravity="center_vertical|left"
+	android:text="@string/message_set"
+	android:textColor="#888800"
+	android:textSize="15sp"
+	android:background="@drawable/tab_bar" />  
+	
+<Switch
+    android:id="@+id/switch_quiet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:text="@string/quiet"
+    android:textColor="#058"
+    android:textSize="20sp" />
+	
+<TextView
+    android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:textSize="10sp" />         
+<Switch
+    android:id="@+id/switch_remind"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:text="@string/remind"
+    android:textColor="#058"
+    android:textSize="20sp"  />	
+<TextView
+    android:layout_width="match_parent"
+	android:layout_height="20dip" />  	
+ <TextView
+    android:layout_width="match_parent"
+	android:layout_height="30dip"
+	android:paddingLeft="10dp"
+	android:gravity="center_vertical|left"
+	android:text="@string/about_app"
+	android:textColor="#888800"
+	android:textSize="15sp"
+	android:background="@drawable/tab_bar" />   	
+<TextView
+    android:id="@+id/about_revision"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:paddingLeft="10dp"    
+    android:text="@string/revision"
+    android:textSize="20sp"
+    android:clickable="true" 
+    android:textColor="#058"
+    android:onClick="click_version" />	
+<TextView
+    android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:textSize="10sp" />  	          
+<TextView
+    android:id="@+id/about_us"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:text="@string/us"
+    android:textSize="20sp"
+    android:clickable="true"
+    android:textColor="#058"
+    android:onClick="click_us" />           
+</LinearLayout>
+</LinearLayout>
